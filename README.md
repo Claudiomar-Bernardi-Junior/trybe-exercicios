@@ -6,4 +6,11 @@ A organização desse repertorio será feita da seguinte maneira:<br>
 2- Dentro dos Modulos, em cada um deles, terá a separação dos exercicios em diretorios de "Seções"<br> 
 3- Dentro das Seções terá também a separação dos excercicios por dia também <br>
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+<details>
+  <summary><strong>Fundamentos</strong></summary><br />
+  <P>Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar sua carreira no mundo do desenvolvimento Web, virando uma pessoa preparada para os módulos de front-end e back-end.      Vamos te guiar, etapa a etapa, por toda essa jornada!<br>
+    Para começar, os primeiros exercicios serão basicos, baseados apenas em Unix/shell, Git também será importante para guardar de maneira eficiente e segura os versionamentos de cada um dos excercicios. <br>
+    Em seguida, vamos para o desenvolvimento web, com exercicios usando HTML, estilizá-los com o CSS e criar comportamentos customizados com o JavaScript. <br>
+    Após esse ciclo, os proximos exercicios serão sobre criação de sites responsivos com um CSS mais elegante e eficiente.<br>
+    Por fim, vamos para JavaScript integralmente, incluindo HOF, código assíncrono, testes unitários e outros recursos avançados que serão introduzidos com o passar do tempo.</p> 
+</details>
