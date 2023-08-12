@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    margin-left: 50px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#logo1{
+    width: 350px;
+    height: auto;
+}
+
+#texto1{
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(136, 28, 127);
+    color: white;
+    width: 100%;
+    justify-content:center;
+}
+
+#lista1{
+    margin-left: 15px;
+    padding-left: 15px;
+    color: white;
+    background-color:rgb(136, 28, 127);
+    list-style:square;
+}
