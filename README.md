@@ -28,4 +28,4 @@ Lembrando mais uma vez que meu intuito com essas imagens e textos são apenas co
 <br>
 
 Fontes: <br>
-Alguns texto são retirados o programa de cursos da Trybe, o site oficial dela é o https://www.betrybe.com/, caso tenha se interessado pelos arquivos de exercicios e quer mais informações sobre eles alem de aulas ao vivo e muito mais, só acessar e se informar sobre.
+Alguns texto são retirados do programa de cursos da Trybe, o site oficial dela é o https://www.betrybe.com/, caso tenha se interessado pelos arquivos de exercicios e quer mais informações sobre eles alem de aulas ao vivo e muito mais, só acessar e se informar sobre.
