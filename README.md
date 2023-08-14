@@ -26,3 +26,6 @@ Por favor me mande mensagem para que possamos conversar e assim eu possa lhe dar
 Caso não queira mesmo que eu utilize eles, não tem problema, eu os removo dos arquivos se assim desejar também.<br> 
 Lembrando mais uma vez que meu intuito com essas imagens e textos são apenas como um conteudo para ser usado enquanto estudo e não tenhum intuito nenhum em roubar o trabalho de ninguem.<br>
 <br>
+
+Fontes: <br>
+Alguns texto são retirados o programa de cursos da Trybe, o site oficial dela é o https://www.betrybe.com/, caso tenha se interessado pelos arquivos de exercicios e quer mais informações sobre eles alem de aulas ao vivo e muito mais, só acessar e se informar sobre.
