@@ -19,3 +19,9 @@ A organização desse repertorio será feita da seguindo maneira:<br>
      e ferramentas a fim de deixar uma base bem solida antes de passar para o front-end/back-end.
   </p> 
 </details>
+<br>
+<br>
+<b>OBS</b>: os exercicios que são feitos e suas pastas, arquivos e afins são publicados por mim, porem alguns textos e imagens são retiradas direto da internet, então caso algum texto que foi copiado e colado para ou imagem que foi usada seja de sua autoria, favor não denunciar o repositorio. Por favor me mande mensagem para que possamos conversar e assim eu possa lhe dar os devidos creditos dos materiais que eu uso como estudo e aperfeiçoamento de codagem/afins.<br> 
+Caso não queira mesmo que eu utilize eles, não tem problema, eu os removo dos arquivos se assim desejar também.<br> 
+Lembrando mais uma vez que meu intuito com essas imagens e textos são apenas como um conteudo para ser usado enquanto estudo e não tenhum intuito nenhum em roubar o trabalho de ninguem.<br>
+<br>
