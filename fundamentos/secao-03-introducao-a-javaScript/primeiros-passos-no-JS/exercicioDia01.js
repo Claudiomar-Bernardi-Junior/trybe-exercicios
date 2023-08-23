@@ -136,3 +136,120 @@ if(idadeBebe <= 4){
     fralda = 'não é a mamãe';
 }
 console.log(fralda);
+//variaveis a serem usadas nos exercicios
+const num1 = 8;
+const num2 = 13;
+const num3 = 14;
+
+
+//Exercicio 1
+console.log('Operação de Soma: ' + (num1 + num2));
+console.log('Operação de Subtração: ' + (num1 - num2));
+console.log('Operação de Multiplicação: ' + (num1 * num2));
+console.log('operação de Divisão: ' + (num1 / num2));
+console.log('operação de Módulo: ' + (num1 % num2));
+
+//exercicio 2
+if (num1 > num2){
+    console.log(num1 + ' é maior que ' + num2);
+}else if (num1 === num2){
+    console.log(num1 + ' é igual a ' + num2);
+}else {
+    console.log(num1 + ' é menor que ' + num2);
+}
+
+//exercicio 3
+if (num1 > num2 && num1 > num3){
+    console.log(num1 + ' é maior que ' + num2 + ' e ' + num3);
+}else if (num2 > num1 && num2 > num3){
+    console.log(num2 + ' é maior que ' + num1 + ' e ' + num3);
+}else if (num3 > num1 && num3 > num2){
+    console.log(num3 + ' é maior que ' + num1 + ' e ' + num2);
+}else {
+    console.log('todos os numeros são iguais');
+}
+
+//exercicio 4
+const angulo1 = 60;
+const angulo2 = 60;
+const angulo3 = 60;
+
+if (angulo1 + angulo2 + angulo3 === 180){
+    console.log('True: É um triangulo valido')
+}else if (angulo1 + angulo2 + angulo3 != 18){
+    console.log('False: Não é um triangulo valido')
+}
+
+//exercicio5
+const peca = 'ju';
+
+switch (peca.toLowerCase()) {
+    case 'rei':
+    console.log('Rei é uma peça que anda 1 quadrado em qualquer direção.');
+    break;
+    case 'rainha':
+    console.log('Rainha é uma peça que anda quantos quadrados quiser em qualquer direção entre Diagonal, horizontal e vertical.');
+    break;
+    case 'bispo':
+    console.log('Bispo é uma peça que anda quantos quadrados quiser, mas apenas em diagonal.');
+    break;
+    case 'cavalo':
+    console.log('Cavalo é uma peça que anda 3 quadrados retos em qualquer direção e no ultimo quadrado do movimento ela vai 1 para o lado, é a unica peça que pode pular sobre outras, comendo apenas a peça que estiver no fim de seu movimento.');
+    break;
+    case 'torre':
+    console.log('Torre é uma peça que anda quantos quadrados quiser, mas apenas na Horizontal e vertical.');
+    break;
+    case 'peão':
+    console.log("Peão é uma peça que anda 1 quadrado para frente apenas e na primeira vez que ela movimentar ela pode andar 2 quadrados para frente. Seu ataque é feito em diagonal, mas apenas em frente, nunca nas diagonais traseiras do movimento dela.");
+    break;
+    default:
+    console.log('Peça não encontrada');
+};
+//obs: lembresse, o movimendo o switch case é em cascata, logo, 
+//ele vai avaliar de cima para baixo as respostas até encontrar uma que se encaixe melhor no que foi pedido
+
+//exercicio6
+let Par = false;
+
+if(num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0){
+    Par = true;
+}
+
+console.log(Par)
+
+//exercicio7
+
+const salarioBruto = 2600;
+let descontoINSS
+let descontoIR
+
+if (salarioBruto <= 1556.94){
+    descontoINSS =(salarioBruto * 8) / 100;
+}else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92){
+    descontoINSS = (salarioBruto * 9) / 100;
+}else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82){
+    descontoINSS = (salarioBruto * 11) / 100;
+}else if (salarioBruto > 5189.82){
+    descontoINSS = 570.88;
+}
+console.log(descontoINSS)
+
+const salariodescontoINSS = salarioBruto - descontoINSS
+
+if (salarioBruto - descontoINSS <= 1903.98){
+    descontoIR = 0;
+}else if (salariodescontoINSS >= 1903.99 && salariodescontoINSS <= 2826.65){
+    descontoIR = (salariodescontoINSS * 7.5) / 100 - 142.80;
+}else if (salariodescontoINSS >= 2826.66 && salariodescontoINSS <= 3751.05){
+    descontoIR = (salariodescontoINSS * 7.5) / 100 - 354.80;
+}else if (salariodescontoINSS >= 3751.06 && salariodescontoINSS <= 4664.68){
+    descontoIR = (salariodescontoINSS * 7.5) / 100 - 636.13;
+}else if (salariodescontoINSS > 4664.68){
+    descontoIR = (salariodescontoINSS * 7.5) / 100 - 869.36;
+}
+
+console.log(descontoIR)
+
+const salarioLiquido = salarioBruto - descontoINSS - descontoIR
+
+console.log(salarioLiquido)

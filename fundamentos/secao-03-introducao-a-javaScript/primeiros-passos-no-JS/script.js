@@ -42,5 +42,9 @@ console.log(Object.keys(pessoa1));
 console.log(Object.values(pessoa1));
 console.log(Object.entries(pessoa1));
 
+// no projeto os testes tao numerados por requisito, 
+// se vc colocar npm test 1, por exemplo ele ja vai direto no teste 
+// do primeiro req
+
 
 
