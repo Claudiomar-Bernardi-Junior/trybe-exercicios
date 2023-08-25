@@ -42,7 +42,52 @@ console.log(Object.keys(pessoa1));
 console.log(Object.values(pessoa1));
 console.log(Object.entries(pessoa1));
 
-// no projeto os testes tao numerados por requisito, 
-// se vc colocar npm test 1, por exemplo ele ja vai direto no teste 
-// do primeiro req
+const residents = [
+    {
+      name: 'Luíza',
+      lastName: 'Guimarães',
+      floor: 10,
+      apartment: 1005,
+    },
+    {
+      name: 'William',
+      lastName: 'Albuquerque',
+      floor: 5,
+      apartment: 502,
+    },
+    {
+      name: 'Murilo',
+      lastName: 'Ferraz',
+      floor: 8,
+      apartment: 804,
+    },
+    {
+      name: 'Zoey',
+      lastName: 'Brooks',
+      floor: 1,
+      apartment: 101,
+    },
+  ];
+
+  for (let index = 0; index < residents.length; index += 1) {
+    const resident = residents[index];
+    console.log(resident);
+  };
+
+//exercicio1
+
+const player = {
+    name: 'Marta',
+    lastName: 'Silva',
+    age: 34,
+    medals: { golden: 2, silver: 3},
+    bestInTheWorld: [2006, 2007, 2008, 2009, 2010, 2018]
+};
+
+let message = `A jogadora ${player.name} ${player.lastName} tem ${player.age} anos de idade.`;
+console.log(message);
+
+let achievements = `A jogadora ${player.name} ${player.lastName} foi eleita a melhor do mundo por ${player['bestInTheWorld'].length} vezes`;
+
+console.log(achievements);
 
