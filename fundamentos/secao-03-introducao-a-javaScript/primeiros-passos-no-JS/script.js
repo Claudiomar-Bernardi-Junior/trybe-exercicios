@@ -47,4 +47,3 @@ console.log(Object.entries(pessoa1));
 // do primeiro req
 
 
-
