@@ -29,6 +29,9 @@ function Bemvindo (pessoaEstudante){
     return `Olá ${pessoaEstudante}, tudo bem com você?`;
 }
 
+
+//Arrow Function, ou função com flechas (???)
+
 const Bemvindo2 = (pessoaEstudante) => {
     return `Olá ${pessoaEstudante}, tudo bem com você?`;
 }
@@ -90,6 +93,7 @@ const totalizaValoresCarrinho = () => {
         soma = soma + arrayValores[indice];
     }
 }
+
 console.log(soma);
 
 //exercicio1
@@ -120,6 +124,43 @@ function greetCustomer(customer) {
     console.log(`Ola, ${customer[index]}. Essa é sua conta do TrybeBank.`);
   }
 };
-greetCustomer(trybeBankCustomers);S
+greetCustomer(trybeBankCustomers);
 
+function findElement(array, element){
+    return array.includes(element);
+}
 
+console.log(findElement(trybeBankCustomers, 'Gus'));
+console.log(findElement(nomesClientes, 'carol'));
+
+//exercicio3
+const clientesTrybe = ['Oliva', 'Nat', 'Gus'];
+
+function addCustomer(cliente) {
+    if (typeof cliente != 'string'){
+        return 'O parâmetro passado deve ser do tipo string!';
+    }
+    clientesTrybe.push(cliente)
+    return 'cliente adicionado ao fim da lista'
+}
+console.log(addCustomer('claudiomar'))
+console.log(clientesTrybe);
+
+//exercicio4
+const clientesTrybers = ['Oliva', 'Nat', 'Gus'];
+
+function addCustomers(clientesT, novosClientesT) {
+    for (let index = 0; index < novosClientesT.length; index += 1) {
+        if (typeof novosClientesT[index] === 'string') {
+            clientesT.push(novosClientesT[index]);
+
+        } else {
+        return 'Todos os valores precisam ser strings.';
+        }
+    }
+    return clientesTrybers;
+};
+
+console.log(addCustomers(clientesTrybers, ['claudiomar', 'matheus', 'gabriel']));
+
+//exercicio5
